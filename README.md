@@ -1,13 +1,39 @@
 Android Holo Colors IntelliJ Plugin
 ===================================
 
-Tested with IntelliJ 12.x / 13.x and Android Studio 0.3+.
+Tested with IntelliJ 12.x / 13.x and Android Studio 0.3+. You can have others information about the plugin on <a href="http://plugins.jetbrains.com/plugin/7366?pr=" target="_blank">jetbrains website</a>.
 
 Installation
 ------------
+Go to Preferences / Plugins and search Android Holo Colors :
+
+![Installation](https://raw.github.com/jeromevdl/android-holo-colors-idea-plugin/master/other/holocolorsinstall.png)
 
 Usage
 -----
+Click on the Android Holo Colors icon (blue 'H') in the toolbar :
+
+![Toolbar](https://raw.github.com/jeromevdl/android-holo-colors-idea-plugin/master/other/toolbar.png)
+
+You should have the following screen :
+
+![Holo Colors Idea](https://raw.github.com/jeromevdl/android-holo-colors-idea-plugin/master/other/holocolorsidea.png)
+
+Like on the website (http://android-holo-colors.com), you choose a name for your theme, you select the minSDKVersion, the compat library if necessary, and the widgets you need. You also need to specify where is your "res" folder. Finally, click "OK". 
+
+If some files were already present in your res folder (and subfolders), you have the following dialog to choose if you want to overwrite one file, or all files, or if on the contrary you don't want to overwrite one file, or no file :
+
+![Overwrite](https://raw.github.com/jeromevdl/android-holo-colors-idea-plugin/master/other/holocolorsoverwrite.png)
+
+You will also probably see the following screen. In this case, click on "Make a donation" or your computer will burn ;-)
+
+![Overwrite](https://raw.github.com/jeromevdl/android-holo-colors-idea-plugin/master/other/donate.png)
+
+Support
+-------
+Seriously, if you save time and money with Android Holo Colors, help me with a small donation :
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XQSBX55A2Z46U" target="_blank"><img src="http://android-holo-colors.com/support-button.png" border="0"></a>
 
 License
 -------
