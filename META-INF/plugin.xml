@@ -1,0 +1,57 @@
+<!--
+  ~ Copyright 2000-2013 JetBrains s.r.o.
+  ~ Copyright 2013-2014 Android Holo Colors (Jerome Van Der Linden)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<idea-plugin version="2">
+  <id>fr.vdl.android.holocolors</id>
+  <name>Android Holo Colors Generator</name>
+  <version>1.0</version>
+  <vendor email="jeromevdl@android-holo-colors.com" url="http://www.android-holo-colors.com">Android Holo Colors</vendor>
+
+  <description><![CDATA[
+      IntelliJ Plugin for Android Holo Colors Genrator<br> Generate your Android Holo Widgets (images and xml) using custom colors.
+      ]]></description>
+
+  <change-notes><![CDATA[
+    First version
+    ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="123.72"/>
+
+  <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <depends>com.intellij.modules.java</depends>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <action id="AndroidHoloColors.generator" class="fr.vdl.android.holocolors.HoloColorsGenerator" text="Android Holo Colors"
+            description="Generate android holo widgets with custom colors" icon="/icons/H.png">
+      <add-to-group group-id="MainToolBar" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift meta H"/>
+    </action>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij" />
+
+</idea-plugin>
