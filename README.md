@@ -15,6 +15,12 @@ Go to Preferences / Plugins and search Android Holo Colors :
 
 ![Installation](https://raw.github.com/jeromevdl/android-holo-colors-idea-plugin/master/other/holocolorsinstall.png)
 
+#### Troubles ####
+
+If you can't see the plugin, you should either click on "Browse" (on the left) or "Install from disk" (the jar is available <a href="http://plugins.jetbrains.com/plugin/download?pr=androidstudio&updateId=14872">here</a>):
+
+![Plugin not visible](https://raw.github.com/jeromevdl/android-holo-colors-idea-plugin/master/other/plugin_not_visible.png)
+
 Usage
 -----
 Click on the Android Holo Colors icon (blue 'H') in the toolbar :
