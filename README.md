@@ -10,7 +10,6 @@ Installation
 Download the <a href="https://github.com/jeromevdl/android-holo-colors-idea-plugin/raw/master/AndroidHoloColors.jar">AndroidHoloColors.jar</a> and put it in your IntelliJ / Android Studio plugin folder. See the <a href="http://devnet.jetbrains.com/docs/DOC-181" target="_blank">documentation</a> to know where it is.
 
 ### Within the IDE ###
-_Not available now, Jetbrains must validate the plugin_
 
 Go to Preferences / Plugins and search Android Holo Colors :
 
