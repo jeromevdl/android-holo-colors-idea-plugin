@@ -21,7 +21,7 @@
   <vendor email="jeromevdl@android-holo-colors.com" url="http://www.android-holo-colors.com">Android Holo Colors</vendor>
 
   <description><![CDATA[
-      IntelliJ Plugin for Android Holo Colors Genrator<br> Generate your Android Holo Widgets (images and xml) using custom colors.
+      IntelliJ Plugin for Android Holo Colors Generator<br> Generate your Android Holo Widgets (images and xml) using custom colors.
       ]]></description>
 
   <change-notes><![CDATA[
