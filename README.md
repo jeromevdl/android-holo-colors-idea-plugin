@@ -1,3 +1,5 @@
+# This project is not maintained anymore. Holo Colors doesn't make sense since the introduction of Material Design and the ability to set the primary color, secondary color...
+
 Android Holo Colors IntelliJ Plugin
 ===================================
 
